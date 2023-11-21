@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #4484ec;
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+div {
+	text-align: center;
+}
+hr {
+	border: 2px solid darkblue;
+}
+h1 {
+	margin: 10px;
+	color: white;
+}
+p {
+	font-size: 150%;
+}
+p1 {
+	color: lightgrey;
+	font-size: 200%;
+}
+table {
+	border-spacing: 5px;
+	padding: 0px;
+	background-color: #4484ec;
+	width: 100%;
+	border-spacing: 6px;
+	align-content: center;
+}
+th {
+	border: 3px solid black;
+	text-align:center;
+	background-color: white;
+	padding: 10px;
+	margin: 10px;
+}
+section::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+footer{
+	background-color: #111;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.header {
+	padding: 80px;
+	text-align: center;
+	background-image: url("Images/Background.jpg");
+}
+.header h1 {
+	font-size: 40px;
+}
+.navbar {
+	overflow: hidden;
+	background-color: #333;
+}
+.navbar a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 25px;
+	text-decoration: none;
+}
+.navbar a:hover {
+	background-color: white;
+	color: black;
+	transition: width 2s;
+}
+.footerContainer {
+	width: 100%;
+	padding: 20px 30px 20px;
+}
+.footerNav {
+	margin: 30px 0;
+}
+.footerNav ul {
+	display: flex;
+	justify-content: center;
+}
+.footerNav ul li a{
+	color: white;
+	margin: 20px;
+	text-decoration: none;
+	font-size: 1.3em;
+	opacity: 0.7;
+	transition: 0.5s;
+}
+.footerNav ul li a:hover{
+	opacity: 1;
+}
+@media (max-width: 700px) {
+	.footerNav ul{
+		flex-direction: column;
+	}
+	.footerNav ul li{
+		width: 100%;
+		text-align: center;
+		margin: 10px;
+	}
+}
+.footerBottom {
+	 background-color: black;
+	 padding: 20px;
+	 text-align: center;
+}
+.footerBottom p{
+	color: white;
+}
+.designer {
+	opacity: 0.7;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	margin: 0px 5px;
+}
